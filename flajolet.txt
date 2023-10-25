@@ -34,7 +34,7 @@ for i in range(len(bins2)):
             if current_zeros > max_zeros:
                 max_zeros = current_zeros
                 max_zeros_index = i
-r=h2[max_zeros_index]
+r=max_zeros
 bintere=bins2[max_zeros_index]
 print('binary(max 0) :',bintere)
 print('r =',r)
